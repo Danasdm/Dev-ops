@@ -1,0 +1,51 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}	
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: right;
+	min-height: 8vh;
+	background-color: #136727;
+	font-family: 'Indie Flower', cursive;
+	
+}	
+
+.logo{
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 50px;
+	
+	
+	
+}
+.nav-links a{
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+	color: white;
+	text-align: right;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 20px;
+	
+	
+	
+	
+}
+
+.nav-links li{
+	list-style-type: none;
+	text-align: right;
+	
+	
+}
+
+
+
+
