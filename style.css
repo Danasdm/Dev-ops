@@ -9,7 +9,7 @@ nav{
 	justify-content: space-between;
 	align-items: center;
 	min-height: 8vh;
-	background-color: #136727;
+	background-color: #444444;
 	font-family: 'Indie Flower', cursive;
 	padding: 30px 10%;
 	
@@ -20,6 +20,7 @@ nav{
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 50px;
+	cursor: pointer;
 	
 	
 	
@@ -32,20 +33,18 @@ nav{
 	text-decoration: none;
 	letter-spacing: 3px;
 	font-weight: bold;
-	font-size: 20px;
-	
-	
-	
-	
-	
+	font-size: 20px;	
 }
 
 .nav-links li{
-	list-style-type: none;
-	
-	
-	
-	
+	list-style: none;
+	display: inline-block;
+	justify-content: space-between;
+	padding: 0px 20px;
+}
+
+.nav-links a:hover{
+	color:#0088a9;
 }
 
 
