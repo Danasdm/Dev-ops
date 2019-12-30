@@ -61,13 +61,13 @@ nav{
 }
 
 .app-picture {
-	width 50%;
+	width 40%;
 	float: right;
 	padding: 0px 50px;
 }
 
 .app-picture img {
-	width 100%;
+	width 60%;
 	padding: 0px 300px;
 	margin-top: -200px;
 	
